@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+h1, body, video {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-weight: normal;
+}
+
+body {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 100vh;
+}
+
+noscript{
+    height: 100vh;
+}
+
+.attention {
+    user-select: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 7vw;
+    text-align: center;
+    color: white;
+} 
+
+p{
+    font-size: 3vw !important; 
+    color: red !important;
+}
+
+image{
+    width: 100vw;
+}
+
+video {
+    width: 20vw;
+}
+
+footer nav ul{
+    padding: 2vmin 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+footer nav ul li{
+    font-size: 5vmax;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    padding: 0 1vmin;
+}
+
+footer nav ul .space{
+    color: gray;
+}
+
+footer nav ul li a{
+    text-decoration: underline;
+}
+
+footer nav ul li a:hover{
+    color: gray;
+}
+
+footer nav ul li a:link, a:visited {
+    color: white;
+}
+
+footer nav ul li a:link:active, a:visited:active {
+    color: white;
+}
